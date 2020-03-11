@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bg-color{
+    background:#290000;
+    border-top: 5px solid #76c38f;
+    }
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.mtop{
+    margin-top: 45px;
+}
+.row .logo h3,p,.sl-text h2{
+    color: white;
+}
+.row .logo h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: normal
+}
+p{
+    font-size: 11px;
+    color:#979797;
+}
+.mtop ul{
+    list-style: none;
+    float: right;
+}
+.mtop ul li{
+    float: left;
+    text-transform: uppercase;
+    padding: 9px;
+    font-size: 13px;
+    margin: 2px;
+}
+.mtop ul li:hover,.active {
+    background: #76c38f;
+    border-radius: 7px;
+}
+.mtop ul li a{
+    text-decoration: none;
+    color:white;
+}
+.mtop .sl-text{
+    padding:140px 90px 140px 0px;
+}
+.mtop .roundimg{
+    padding: 10px 50px 5px 0;
+}
+.left-arrow{
+    padding-top: 20%;
+}
+.right-arrow{
+    padding-top: 47%;
+}
+
+
+/* SERVICES SECTION */
+.serv-bg{
+    background:#660000;
+}
+.services{
+    padding: 60px 0px;
+}
+.single-serv{
+    background:white;
+}
+.single-serv p{
+    color:#979797;
+}
+
+.lt-work {
+    font-size: 32px;
+    text-transform: uppercase;
+    background: #303030;
+    border-radius: 20px;
+    margin-top: 36px;
+    margin-bottom: 28px;
+}
+.gray-border{
+    border:1px solid #303030;
+    position: relative;
+    top:60px;
+}
+.bg-white {
+    background: white;
+}
+.bg-white a:hover {
+    background: #76c38f;
+}
+.bg-white h4 {
+    background: black;
+    font-size: 13px;
+    padding: 5px;
+    margin: -3px 0 7px 5px;
+    border-right: 4px solid white;
+    color:white;
+}
+
+
+/* FOOTER */
+
+footer{
+    background:#303030;
+    color:white;
+}
+.text-color{
+    color:#979797;
+}
+.black-border {
+    border:1px solid black;
+}
+.ft-bottom-bg{
+    background: #303030;
+}
+.border-list {
+    border: 1px solid #3D3D4A;
+}
+#field-back{
+    background: #222222;
+    border: none;
+}
